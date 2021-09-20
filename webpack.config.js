@@ -37,7 +37,7 @@ module.exports = {
       ],
   },
   plugins: [new HtmlWebpackPlugin({ template: 'src/index.html' }),
-            new MiniCssExtractPlugin()],
+    new MiniCssExtractPlugin()],
     devServer: {
         port: 9999,
         open: true,
